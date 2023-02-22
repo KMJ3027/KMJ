@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2023년 버킷리스트</title>
+    <meta property="og:title" content="쭌 인테리어" />
+        <meta property="og:description" content="쭌 인테리어 - 이용준" />
+        <meta property="og:image" content="img2.jpg" />
+        <title>YJ - 프로필 링크</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
-       * {
-        font-family: 'Hahmlet', serif;
-       }
-        .title {
+
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+
+        body {
+            background-color: #032c8d;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+
+            border : 3px solid rgb(255, 255, 255);
+
+            background-image: url('img1.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main {
+            color: white;
+            font-size: 30px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .sub1 {
             color: rgb(255, 255, 255);
-            background-color: tomato;
-            font-size: 24px;
-            padding: 4px 14px;
+            font-size: 25px;
+            font: bold;
+            margin-top: -8px;
+        }
+
+        .sub2 {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
             border-radius: 8px;
-        }
 
-        .msg {
+            margin-bottom: 10px;
+
+            font-size: 20px;
             font-weight: bold;
+            color: #000000;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
         }
 
-        .msg2 {
-            font-size: 14px;
-            color: black;
-            font-weight: bold;
-            margin-top: -30px;
-        }
-
-        .bucket {
-            width: 160px;
-            height: 160px;
-        }
-
-        .img1 {
-            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
-            background-size: cover;
-            background-position: center;
-                    }
-                    
-        .img2 {
-            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
-            background-size: cover;
-            background-position: center;
-        }
-
-        .bg {
-            width: 360px;
-            background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        .wrap > a:hover {
+            background-color: #fcb94d;
+            font-size: 23px;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 </head>
-<body class="bg center">
-    <h1 class="title">2023년 신년계획</h1>
-    <p class="msg">가보자고~!!</p>
-    <p class="msg2">중요한건 꺾이지 않는 마음!</p>
-    <div class="row flex-row wrap">
-        <div class="bucket img1 center">필라테스 완주하기</div>
-        <div class="bucket img2 center">결혼식 슈루룩</div>
-        <div class="bucket img2 center">-10kg</div>
-        <div class="bucket img1 center">팔로워 3천달성</div>
-        <div class="bucket img1 center">새 렌즈 구입</div>
-        <div class="bucket img2 center">집 이뿌게 꾸미기</div>   
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">쭌 인테리어</h1>
+        <p class="sub1">실장 이용준</p>
+        <p class="sub2">최고의 품질&nbsp;!&nbsp;&nbsp;&nbsp;최선의 시공&nbsp;!</p>
+
+        <a target="_blank" href="https://www.instagram.com/greendragon3027/">인스타그램</a>
+        <a target="_blank" href="https://blog.naver.com/aetery">미케렌시아</a>
+        <a target="_blank" href="">포토폴리오</a>
+        <a target="_blank" href="">연락하기</a>
+        <a target="_blank" href="">오시는길</a>
+
     </div>
-    
 </body>
 </html>
