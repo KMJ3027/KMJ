@@ -1,129 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YEJI</title>
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YEJI</title>
+    <meta property="og:title" content="HJ의 링크 모음" />
+        <meta property="og:description" content="찰나의 하루" />
+        <meta property="og:image" content="img2.jpg" />
+        <title>HJ - 프로필 링크</title>
     <style>
-      /* 이서윤체 폰트 적용을 위한 코드 */
-      @font-face {
-        font-family: "LeeSeoyun";
-        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
-          format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
 
-      /* body태그 자체에 css 요소 부여 */
-      body {
-        font-family: "LeeSeoyun";
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        background-image: url("./background.png");
-      }
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
 
-      /*  */
-      .container {
-        width: 390px;
-        background-color: #a0a0a0cc;
-        height: 100%;
-      }
+        body {
+            background-color: #091953f2;
+        }
 
-      .photos {
-        margin-top: 30px;
-      }
+        .profile {
+            width: 100px;
+            height: 100px;
 
-      .photo-frame {
-        background-color: white;
-        margin: 15px 20px;
-        height: 200px;
-        background-size: cover;
-        position: relative;
-      }
+            border-radius: 100%;
 
-      /* 하단 영역 스타일링 */
-      .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+            border : 3px solid rgb(255, 255, 255);
 
-      .f-title {
-        font-size: 25px;
-        font-weight: 900;
-        color: white;
-      }
-      .f-date {
-        font-size: 15px;
-        font-weight: 500;
-        color: white;
-      }
+            background-image: url('img1.jpg');
+            background-position: center;
+            background-size: cover;
+        }
 
-      #image1 {
-        background-image: url("./img1.jpg");
-      }
+        .main {
+            color: white;
+            font-size: 25px;
 
-      #image2 {
-        background-image: url("img2.jpg");
-      }
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
 
-      #image3 {
-        background-image: url("img3.jpg");
-      }
+        .sub {
+            color: white;
+            font-size: 15px;
 
-      #image4 {
-        background-image: url("img4.jpg");
-      }
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
 
-      .photo-description {
-        color: white;
-        background-color: black;
-        width: fit-content;
-        padding: 0 20px;
-        margin-bottom: 10px;
-        border-radius: 10px;
-        position: absolute;
-        bottom: 0;
-        transform: translate(-50%);
-        left: 50%;
-      }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+
+        .wrap > a:hover {
+            background-color: #fdddef;
+            font-size: 15px;
+        }
     </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="photos">
-        <div id="image1" class="photo-frame">
-          
-        </div>
-        <div id="image2" class="photo-frame">
-          
-        </div>
-        <div id="image3" class="photo-frame">
-          
-        </div>
-        <div id="image4" class="photo-frame">
-          
-        </div>
-      </div>
-      <div class="footer">
-        <p class="f-title">YEJI's Day</p>
-        <p class="f-date">2023.02.12</p>
-      </div>
-    </div>
-  </body>
-</html>
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">HJ</h1>
+        <p class="sub">일상 속 찰나의 순간 </p>
+        <a target="_blank" href="https://www.instagram.com/melon_soda3027/">인스타그램</a>
+        <a target="_blank" href="https://ctee.kr/place/melon_soda3027">크티</a>
+        
+    </div>
 </body>
 </html>
